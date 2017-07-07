@@ -5,7 +5,7 @@ namespace App;
 /**
  * Class lang
  *
- * @package \i18n
+ * @package \App
  */
 class Lang
 {
