@@ -9,7 +9,9 @@ require 'app/inc/_header.php';
 ?>
 
     <div class="container">
-        <h1><?= $json->homeTitle; ?></h1>
+        <div class="starter-template">
+            <h1><?= $json->homeTitle; ?></h1>
+        </div>
     </div>
 
 <?php require 'app/inc/_footer.php'; ?>
