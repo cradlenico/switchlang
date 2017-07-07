@@ -6,7 +6,6 @@ Autoloader::register();
 $lang = new App\Lang();
 $json = $lang->expose();
 require 'app/inc/_header.php';
-require 'app/inc/_nav.php';
 ?>
 
     <div class="container">
