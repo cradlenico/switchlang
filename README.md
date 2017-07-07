@@ -3,10 +3,10 @@
 ## Getting Started
 php-i18n is a class allowing to easily internationalize a website using json files.
 
-### Prerequisites
+## Prerequisites
 PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7
 
-### How to use
+## How to use
 1st : register Autoloader.php in the index.php
 
   ```php
@@ -30,7 +30,7 @@ $json = $lang->expose();
 <?= $json->homeTitle; ?>
 ```
 
-### Can i add languages ?
+## Can i add languages ?
 
 To add more languages, create a json with the language name
 
