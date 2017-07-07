@@ -1,4 +1,4 @@
-# php-i18n
+# php-i18n - simplest way to internationalize your website
 
 ## Getting Started
 php-i18n is a class allowing to easily internationalize a website using json files.
