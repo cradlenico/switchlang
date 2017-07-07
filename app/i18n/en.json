@@ -1,0 +1,9 @@
+{
+  "lang": "fr",
+  "home": "Home",
+  "homeTitle": "Hello world !",
+  "navbar" : {
+    "logo" : "php-i18n",
+    "blog" : "Blog"
+  }
+}
