@@ -5,7 +5,7 @@ namespace App;
 /**
  * Class Autoloader
  *
- * @package \i18n
+ * @package \App
  */
 class Autoloader
 {
