@@ -36,8 +36,8 @@ To add more languages, create a json with the language name
 
 **Example**
 
-* **German** - *de*
-* **Polish** - *pl*
+* German : de
+* Polish : pl
 
 In 'app/class/Lang.php', simply add new condition with the language name
 
