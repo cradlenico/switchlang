@@ -43,11 +43,11 @@ In 'app/class/Lang.php', simply add new condition with the language name
 
 ```php
  elseif ($lang == 'de') :
-            //German language
-            $content = file_get_contents("app/i18n/$lang.json", true);
+    //German language
+    $content = file_get_contents("app/i18n/$lang.json", true);
  elseif ($lang == 'pl') :
-            //Polish language
-            $content = file_get_contents("app/i18n/$lang.json", true);
+    //Polish language
+ $content = file_get_contents("app/i18n/$lang.json", true);
 ```
 
 The end
