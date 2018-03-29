@@ -1,7 +1,7 @@
 # switchlang - simplest way to internationalize your website in php from scratch
 
 ## Getting Started
-php-i18n is a class allowing to easily internationalize a website using json files.
+switchlang is a class allowing to easily internationalize a website using json files.
 
 ## Prerequisites
 PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7
