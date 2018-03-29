@@ -1,0 +1,24 @@
+{
+  "name": "switchlang",
+  "version": "1.0.0",
+  "description": "Simplest way to internationalize your website in php from scratch",
+  "main": "index.php",
+  "scripts": {
+    "test": "No test needed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cradlenico/switchlang.git"
+  },
+  "keywords": [
+    "language",
+    "php",
+    "switch"
+  ],
+  "author": "Nicolas Geay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cradlenico/switchlang/issues"
+  },
+  "homepage": "https://github.com/cradlenico/switchlang#readme"
+}
