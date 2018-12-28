@@ -30,24 +30,13 @@ $json = $lang->expose();
 <?= $json->homeTitle; ?>
 ```
 
-## Can i add languages ?
+## How to add languages ?
 
-To add more languages, create a json with the language name
+To add more languages, create a ```json``` file with the language name, keep the variables and replace the text
 
 **Example**
 
-* German : de
-* Polish : pl
-
-In 'app/class/Lang.php', simply add new condition with the language name
-
-```php
- elseif ($lang == 'de') :
-    //German language
-    $content = file_get_contents("app/i18n/$lang.json", true);
- elseif ($lang == 'pl') :
-    //Polish language
- $content = file_get_contents("app/i18n/$lang.json", true);
-```
+* German : de.json
+* Polish : pl.json
 
 The end

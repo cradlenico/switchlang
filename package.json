@@ -1,6 +1,6 @@
 {
   "name": "switchlang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplest way to internationalize your website in php from scratch",
   "main": "index.php",
   "scripts": {

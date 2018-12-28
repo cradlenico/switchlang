@@ -1,9 +1,0 @@
-{
-  "lang": "zh",
-  "home": "Chinese",
-  "homeTitle": "你好，世界 ！",
-  "navbar" : {
-    "logo" : "php-i18n",
-    "blog" : "Blog"
-  }
-}

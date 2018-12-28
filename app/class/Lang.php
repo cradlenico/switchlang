@@ -9,19 +9,29 @@ namespace App;
  */
 class Lang
 {
+
+    /**
+     * Select the default language by replacing the value in $default
+     * @return mixed
+     */
     public function expose()
     {
-        $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-        if ($lang == 'fr') :
-            $content = file_get_contents("app/i18n/$lang.json", true);
-        elseif ($lang == 'zh') :
-            //chinese language
-            $content = file_get_contents("app/i18n/$lang.json", true);
-        else :
-            //default language
-            $content = file_get_contents("app/i18n/en.json", true);
+        $default = 'en';
+        $webrowser = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+        $file = 'app/i18n/' . $webrowser .'.json';
+
+        if (!file_exists($file)) :
+            return $json = $this->getfile('app/i18n/'.$default.'.json');
+        else:
+            return $json = $this->getfile($file);
         endif;
-        return $json = json_decode($content);
     }
 
+    /**
+     * @param $path
+     * @return mixed
+     */
+    public function getfile($path){
+        return json_decode(file_get_contents($path,true));
+    }
 }

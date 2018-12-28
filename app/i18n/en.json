@@ -2,8 +2,10 @@
   "lang": "en",
   "home": "Home",
   "homeTitle": "Hello world !",
+  "textArea": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, dolores cumque quaerat rerum natus id nam commodi sunt, sed quas minima nostrum molestiae consectetur itaque eveniet eaque vero iste provident!",
   "navbar" : {
-    "logo" : "php-i18n",
-    "blog" : "Blog"
+    "logo" : "Switchlang",
+    "firstLink" : "A first link",
+    "secondLink": "An other link"
   }
 }
