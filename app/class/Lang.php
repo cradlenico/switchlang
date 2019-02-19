@@ -7,13 +7,16 @@ namespace App;
  *
  * @package \App
  */
+
 class Lang
 {
 
     /**
      * Select the default language by replacing the value in $default
+     * 
      * @return mixed
      */
+
     public function expose()
     {
         $default = 'en';
@@ -28,10 +31,14 @@ class Lang
     }
 
     /**
-     * @param $path
+     * Get the correct file
+     * 
+     * @param string $path get the path file
+     * 
      * @return mixed
      */
-    public function getfile($path){
-        return json_decode(file_get_contents($path,true));
+    public function getfile($path)
+    {
+        return json_decode(file_get_contents($path, true));
     }
 }

@@ -7,10 +7,13 @@ namespace App;
  *
  * @package \App
  */
+
 class Autoloader
 {
     /**
-     * save autoloader
+     * Class to save autoloader
+     * 
+     * @return autoload function
      */
     static function register()
     {
@@ -19,14 +22,17 @@ class Autoloader
 
     /**
      * Includes the file corresponding to our class
-     * @param $class string : name of the class to be loaded
+     * 
+     * @param string $class string : name of the class to be loaded
+     * 
+     * @return file
      */
     static function autoload($class)
     {
         if (strpos($class, __NAMESPACE__ . '\\') === 0) :
             $class = str_replace(__NAMESPACE__ . '\\', '', $class);
             $class = str_replace('\\', '/', $class);
-            require __DIR__ . '/' . $class . '.php';
+            include __DIR__ . '/' . $class . '.php';
         endif;
     }
 }
