@@ -10,7 +10,6 @@ namespace App;
 
 class Lang
 {
-
     /**
      * Select the default language by replacing the value in $default
      * 

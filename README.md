@@ -7,15 +7,13 @@ switchlang is a class allowing to easily internationalize a website using json f
 PHP 5 >= 5.2.0, PECL json >= 1.2.0, PHP 7
 
 ## How to use
-1st : register Autoloader.php in the index.php
+```composer init```
 
-  ```php
+```php
 <?php
 //path : index.php
-use \App\Autoloader;
 
-require 'app/class/Autoloader.php';
-Autoloader::register();
+require 'vendor/autoload.php';
 //...
 ```
 

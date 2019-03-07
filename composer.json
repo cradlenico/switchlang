@@ -1,0 +1,16 @@
+{
+    "name": "cradlenico/switchlang",
+    "description": "simplest way to internationalize your website in php from scratch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Geay"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+		  "App\\": "app/class/"
+		}
+	},
+    "require": {}
+}
